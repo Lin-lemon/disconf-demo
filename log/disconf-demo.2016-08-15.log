@@ -1,0 +1,1035 @@
+2016-08-15 11:58:33,567 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-08-15 11:58:33,583 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: linlemo_0_ac19ae5e-f863-4f0f-8f43-6515ed753610
+2016-08-15 11:58:33,587 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 11:58:33,617 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_store_action: /api/config
+2016-08-15 11:58:33,618 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_zoo_action: /api/zoo
+2016-08-15 11:58:33,618 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_master_num_action: /api/getmasterinfo
+2016-08-15 11:58:33,618 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.local_download_dir: ./disconf/download
+2016-08-15 11:58:33,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [119.29.105.248:8110]
+2016-08-15 11:58:33,627 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-08-15 11:58:33,627 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: fr_f_disconf_demo
+2016-08-15 11:58:33,627 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: deva
+2016-08-15 11:58:33,627 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-08-15 11:58:33,627 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-08-15 11:58:33,628 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: /Users/linzhao/workspace/interesting/disconf_demo/cache
+2016-08-15 11:58:33,628 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.ignore: []
+2016-08-15 11:58:33,628 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_times: 1
+2016-08-15 11:58:33,628 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_sleep_seconds: 1
+2016-08-15 11:58:33,628 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable_local_download_dir_in_class_path: true
+2016-08-15 11:58:33,629 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 11:58:33,629 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-08-15 11:58:33,629 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-08-15 11:58:33,648 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.linlemo.disconf.demo]
+2016-08-15 11:58:33,993 [main] INFO  org.reflections.Reflections - Reflections took 229 ms to scan 1 urls, producing 22 keys and 167 values 
+2016-08-15 11:58:34,036 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct
+2016-08-15 11:58:34,054 [main] WARN  com.baidu.disconf.client.store.inner.DisconfCenterStore - There are two same fileName key!!!! fileBeanConfig.properties
+2016-08-15 11:58:34,646 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 11:58:34,732 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 11:58:34,732 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 11:58:34,732 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 11:58:34,732 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 03:58:34 GMT
+2016-08-15 11:58:34,732 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 11:58:34,788 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=119.29.105.248:2181,119.29.105.248:2181]
+2016-08-15 11:58:34,789 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 11:58:34,801 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 11:58:34,802 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 11:58:34,802 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 11:58:34,802 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 03:58:34 GMT
+2016-08-15 11:58:34,802 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 11:58:34,803 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-08-15 11:58:34,884 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-08-15 11:58:34,884 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 119.29.105.248:2181,119.29.105.248:2181 , connected.
+2016-08-15 11:58:34,884 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-08-15 11:58:34,911 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-08-15 11:58:34,917 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileBeanConfig.properties	=============================
+2016-08-15 11:58:34,918 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-cfd92f4d2a3d4ab28a2a0280a1e9c128
+2016-08-15 11:58:34,959 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-cfd92f4d2a3d4ab28a2a0280a1e9c128
+2016-08-15 11:58:34,965 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-cfd92f4d2a3d4ab28a2a0280a1e9c128 to /Users/linzhao/workspace/interesting/disconf_demo/cache/fileBeanConfig.properties
+2016-08-15 11:58:34,970 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-cfd92f4d2a3d4ab28a2a0280a1e9c128 to /Users/linzhao/workspace/my/disconf_demo/target/classes/fileBeanConfig.properties
+2016-08-15 11:58:34,971 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileBeanConfig.properties
+2016-08-15 11:58:34,971 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 11:58:34,975 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.apple	{"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 11:58:34,976 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 11:58:35,063 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileBeanConfig.properties,fileBeanConfig.properties,配置文件) has been added!
+2016-08-15 11:58:35,063 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 11:58:35,063 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: redis.properties	=============================
+2016-08-15 11:58:35,063 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-da07e7c7df074d55aa376f33d59e6b9b
+2016-08-15 11:58:35,080 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-da07e7c7df074d55aa376f33d59e6b9b
+2016-08-15 11:58:35,081 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-da07e7c7df074d55aa376f33d59e6b9b to /Users/linzhao/workspace/interesting/disconf_demo/cache/redis.properties
+2016-08-15 11:58:35,082 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-da07e7c7df074d55aa376f33d59e6b9b to /Users/linzhao/workspace/my/disconf_demo/target/classes/redis.properties
+2016-08-15 11:58:35,083 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/redis.properties
+2016-08-15 11:58:35,083 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 11:58:35,084 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.host	119.29.105.248
+2016-08-15 11:58:35,084 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.port	6379
+2016-08-15 11:58:35,084 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.aa	
+2016-08-15 11:58:35,084 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.password	
+2016-08-15 11:58:35,084 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 11:58:35,138 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/redis.properties,redis.properties,配置文件) has been added!
+2016-08-15 11:58:35,139 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 11:58:35,139 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileConfig.properties	=============================
+2016-08-15 11:58:35,140 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-d5c3056a3283404392ddc2a576057cba
+2016-08-15 11:58:35,159 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-d5c3056a3283404392ddc2a576057cba
+2016-08-15 11:58:35,162 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-d5c3056a3283404392ddc2a576057cba to /Users/linzhao/workspace/interesting/disconf_demo/cache/fileConfig.properties
+2016-08-15 11:58:35,167 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-d5c3056a3283404392ddc2a576057cba to /Users/linzhao/workspace/my/disconf_demo/target/classes/fileConfig.properties
+2016-08-15 11:58:35,168 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileConfig.properties
+2016-08-15 11:58:35,168 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 11:58:35,169 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.fileVersion	1.0.0.1
+2016-08-15 11:58:35,169 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.filename	myfile
+2016-08-15 11:58:35,169 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.code	1314
+2016-08-15 11:58:35,169 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.author	lin.zhao
+2016-08-15 11:58:35,169 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 11:58:35,228 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileConfig.properties,fileConfig.properties,配置文件) has been added!
+2016-08-15 11:58:35,228 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 11:58:35,229 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to process disconf item: itemContent	=============================
+2016-08-15 11:58:35,230 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 11:58:35,252 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 11:58:35,253 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 11:58:35,253 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 11:58:35,253 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 03:58:34 GMT
+2016-08-15 11:58:35,253 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 11:58:35,255 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }]
+2016-08-15 11:58:35,255 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - value: {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 11:58:35,256 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - download ok.
+2016-08-15 11:58:35,256 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - inject ok.
+2016-08-15 11:58:35,316 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/item/itemContent,itemContent,配置项) has been added!
+2016-08-15 11:58:35,316 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - watch ok.
+2016-08-15 11:58:35,316 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-08-15 11:58:36,519 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct - ================== FileBeanConfigPostConstruct disconf init apple content  = {"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 11:58:36,866 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ==================ItemContentConfigPostConstruct disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 11:58:36,931 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.host , 119.29.105.248)
+2016-08-15 11:58:36,931 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.port , 6379)
+2016-08-15 11:58:36,931 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.password , )
+2016-08-15 11:58:36,956 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-08-15 11:58:36,958 [main] ERROR com.baidu.disconf.client.scan.inner.common.ScanVerify - Your class class com.linlemo.disconf.demo.config.JedisConfig should implement interface: interface com.baidu.disconf.client.common.update.IDisconfUpdate
+2016-08-15 11:58:36,959 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileBeanConfig.properties	=============================
+2016-08-15 11:58:36,959 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.apple is a non-static field. 
+2016-08-15 11:58:36,959 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfig - ================== FileBeanConfig disconf init apple content  = {"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 11:58:36,959 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: redis.properties	=============================
+2016-08-15 11:58:36,959 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.host is a non-static field. 
+2016-08-15 11:58:36,959 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.port is a non-static field. 
+2016-08-15 11:58:36,959 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.password is a non-static field. 
+2016-08-15 11:58:36,959 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileConfig.properties	=============================
+2016-08-15 11:58:36,960 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.fileVersion is a non-static field. 
+2016-08-15 11:58:36,960 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.filename is a non-static field. 
+2016-08-15 11:58:36,960 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.code is a non-static field. 
+2016-08-15 11:58:36,960 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to inject value to disconf item instance: itemContent	=============================
+2016-08-15 11:58:36,960 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreItemProcessorImpl - itemContent is a non-static field. 
+2016-08-15 11:58:36,960 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ================== ItemContentConfig disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 11:58:36,961 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	fileBeanConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.apple=FileItemValue{value={"color": "remjjmnnnnd","price": 10,"isLike": true}, field=private java.lang.String com.linlemo.disconf.demo.config.FileBeanConfig.annotationApple, setMethod=public void com.linlemo.disconf.demo.config.FileBeanConfig.setAnnotationApple(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfig
+	fileName=fileBeanConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	redis.properties	
+	DisconfCenterFile [
+	keyMaps={redis.host=FileItemValue{value=119.29.105.248, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.host, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setHost(java.lang.String)}, redis.port=FileItemValue{value=6379, field=private int com.linlemo.disconf.demo.config.JedisConfig.port, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPort(int)}, redis.password=FileItemValue{value=, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.password, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPassword(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.JedisConfig
+	fileName=redis.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=JedisConfig{host='119.29.105.248', port=6379, password=''}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.linlemo.disconf.demo.service.SimpleRedisService@56b595f4], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.fileVersion=FileItemValue{value=1.0.0.1, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileVersion, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileVersion(java.lang.String)}, file.filename=FileItemValue{value=myfile, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileName, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileName(java.lang.String)}, file.code=FileItemValue{value=1314, field=private int com.linlemo.disconf.demo.config.FileConfig.code, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setCode(int)}}
+	cls=class com.linlemo.disconf.demo.config.FileConfig
+	fileName=fileConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 11:58:36,961 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+disItem:	itemContent	
+	DisconfCenterItem [
+	key=itemContent
+	value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+	field=private java.lang.String com.linlemo.disconf.demo.config.ItemContentConfig.itemContent
+	DisconfCenterBaseModel [
+	object=ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=itemContent&type=1
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 11:58:36,961 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-08-15 11:58:36,989 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+2016-08-15 11:58:36,989 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}
+2016-08-15 11:58:37,004 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 11:58:37,016 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 11:58:37,017 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 11:58:37,030 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 11:59:37,036 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+2016-08-15 11:59:37,037 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}
+2016-08-15 11:59:37,037 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 11:59:37,038 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 11:59:37,038 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 11:59:37,038 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:16:13,969 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-08-15 12:16:14,000 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: linlemo_0_89d86d51-9258-47fc-8afe-6e36679b8ee0
+2016-08-15 12:16:14,004 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:16:14,030 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_store_action: /api/config
+2016-08-15 12:16:14,030 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_zoo_action: /api/zoo
+2016-08-15 12:16:14,030 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_master_num_action: /api/getmasterinfo
+2016-08-15 12:16:14,031 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.local_download_dir: ./disconf/download
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [119.29.105.248:8110]
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: fr_f_disconf_demo
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: deva
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: /Users/linzhao/workspace/interesting/disconf_demo/cache
+2016-08-15 12:16:14,045 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.ignore: []
+2016-08-15 12:16:14,046 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_times: 1
+2016-08-15 12:16:14,046 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_sleep_seconds: 1
+2016-08-15 12:16:14,046 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable_local_download_dir_in_class_path: true
+2016-08-15 12:16:14,046 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:16:14,046 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-08-15 12:16:14,046 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-08-15 12:16:14,058 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.linlemo.disconf.demo]
+2016-08-15 12:16:14,421 [main] INFO  org.reflections.Reflections - Reflections took 272 ms to scan 1 urls, producing 23 keys and 190 values 
+2016-08-15 12:16:14,444 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigJson
+2016-08-15 12:16:14,444 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct
+2016-08-15 12:16:14,496 [main] WARN  com.baidu.disconf.client.store.inner.DisconfCenterStore - There are two same fileName key!!!! fileBeanConfig.properties
+2016-08-15 12:16:15,220 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:16:15,346 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:16:15,347 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:16:15,347 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:16:15,347 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:16:15 GMT
+2016-08-15 12:16:15,348 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:16:15,436 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=119.29.105.248:2181,119.29.105.248:2181]
+2016-08-15 12:16:15,436 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:16:15,450 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:16:15,450 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:16:15,450 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:16:15,450 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:16:15 GMT
+2016-08-15 12:16:15,450 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:16:15,451 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-08-15 12:16:17,437 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-08-15 12:16:17,438 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 119.29.105.248:2181,119.29.105.248:2181 , connected.
+2016-08-15 12:16:17,438 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-08-15 12:16:17,462 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-08-15 12:16:17,469 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileBeanConfig.properties	=============================
+2016-08-15 12:16:17,474 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-f8eeb14d9a334ef4a4db235dbbdb917f
+2016-08-15 12:16:17,540 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-f8eeb14d9a334ef4a4db235dbbdb917f
+2016-08-15 12:16:17,554 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileBeanConfig.properties
+2016-08-15 12:16:17,554 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:16:17,558 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.apple	{"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:16:17,564 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:16:17,690 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileBeanConfig.properties,fileBeanConfig.properties,配置文件) has been added!
+2016-08-15 12:16:17,691 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:16:17,691 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: redis.properties	=============================
+2016-08-15 12:16:17,691 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-586cb94b2b3e49f0b00383cd2e0ad696
+2016-08-15 12:16:17,709 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-586cb94b2b3e49f0b00383cd2e0ad696
+2016-08-15 12:16:17,711 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/redis.properties
+2016-08-15 12:16:17,711 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:16:17,711 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.host	119.29.105.248
+2016-08-15 12:16:17,711 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.port	6379
+2016-08-15 12:16:17,711 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.aa	
+2016-08-15 12:16:17,711 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.password	
+2016-08-15 12:16:17,712 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:16:17,774 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/redis.properties,redis.properties,配置文件) has been added!
+2016-08-15 12:16:17,774 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:16:17,774 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileConfig.properties	=============================
+2016-08-15 12:16:17,774 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-f0ae6f58361944c2899d812e4e997a3b
+2016-08-15 12:16:17,791 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-f0ae6f58361944c2899d812e4e997a3b
+2016-08-15 12:16:17,793 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileConfig.properties
+2016-08-15 12:16:17,793 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:16:17,794 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.fileVersion	1.0.0.1
+2016-08-15 12:16:17,794 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.filename	myfile
+2016-08-15 12:16:17,794 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.code	1314
+2016-08-15 12:16:17,794 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.author	lin.zhao
+2016-08-15 12:16:17,794 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:16:17,856 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileConfig.properties,fileConfig.properties,配置文件) has been added!
+2016-08-15 12:16:17,857 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:16:17,857 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileMap.json	=============================
+2016-08-15 12:16:17,857 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-725e2068742e4a168692eaf36374a857
+2016-08-15 12:16:17,876 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-725e2068742e4a168692eaf36374a857
+2016-08-15 12:16:17,878 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-725e2068742e4a168692eaf36374a857 to /Users/linzhao/workspace/interesting/disconf_demo/cache/fileMap.json
+2016-08-15 12:16:17,885 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-725e2068742e4a168692eaf36374a857 to /Users/linzhao/workspace/my/disconf_demo/target/classes/fileMap.json
+2016-08-15 12:16:17,888 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileMap.json
+2016-08-15 12:16:17,888 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:16:17,889 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:16:17,919 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - create: /disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileMap.json
+2016-08-15 12:16:17,970 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileMap.json,fileMap.json,配置文件) has been added!
+2016-08-15 12:16:17,971 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:16:17,972 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to process disconf item: itemContent	=============================
+2016-08-15 12:16:17,972 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:16:17,996 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:16:17,996 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:16:17,997 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:16:17,997 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:16:17 GMT
+2016-08-15 12:16:17,997 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:16:17,998 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }]
+2016-08-15 12:16:17,998 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - value: {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:16:17,998 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - download ok.
+2016-08-15 12:16:17,998 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - inject ok.
+2016-08-15 12:16:18,065 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/item/itemContent,itemContent,配置项) has been added!
+2016-08-15 12:16:18,066 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - watch ok.
+2016-08-15 12:16:18,066 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-08-15 12:16:19,684 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfigJson - ==================FileBeanConfigJson disconf init stringMap  content = {
+    "CNMMMCN": "\u4e2d\u56fd",
+    "APPlllLE": "\u82f9\u679c",
+    "SHENZHEN": "\u6df1\u5733"
+}
+2016-08-15 12:16:20,017 [main] ERROR com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct - init apple exception
+java.lang.NullPointerException: null
+	at com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct.setApple(FileBeanConfigPostConstruct.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_79]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:349) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:300) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1566) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at com.linlemo.disconf.demo.main.DisconfDemoMain.main(DisconfDemoMain.java:31) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_79]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:na]
+2016-08-15 12:16:20,084 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ==================ItemContentConfigPostConstruct disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:16:20,143 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.host , 119.29.105.248)
+2016-08-15 12:16:20,144 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.port , 6379)
+2016-08-15 12:16:20,149 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.password , )
+2016-08-15 12:16:20,221 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-08-15 12:16:20,228 [main] ERROR com.baidu.disconf.client.scan.inner.common.ScanVerify - Your class class com.linlemo.disconf.demo.config.JedisConfig should implement interface: interface com.baidu.disconf.client.common.update.IDisconfUpdate
+2016-08-15 12:16:20,232 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileBeanConfig.properties	=============================
+2016-08-15 12:16:20,232 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: redis.properties	=============================
+2016-08-15 12:16:20,233 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.host is a non-static field. 
+2016-08-15 12:16:20,233 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.port is a non-static field. 
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.password is a non-static field. 
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileConfig.properties	=============================
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.fileVersion is a non-static field. 
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.filename is a non-static field. 
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.code is a non-static field. 
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileMap.json	=============================
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to inject value to disconf item instance: itemContent	=============================
+2016-08-15 12:16:20,234 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreItemProcessorImpl - itemContent is a non-static field. 
+2016-08-15 12:16:20,234 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ================== ItemContentConfig disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:16:20,235 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	fileBeanConfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct
+	fileName=fileBeanConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileBeanConfigPostConstruct{apple=null}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigPostConstruct{apple=null}], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	redis.properties	
+	DisconfCenterFile [
+	keyMaps={redis.host=FileItemValue{value=119.29.105.248, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.host, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setHost(java.lang.String)}, redis.port=FileItemValue{value=6379, field=private int com.linlemo.disconf.demo.config.JedisConfig.port, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPort(int)}, redis.password=FileItemValue{value=, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.password, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPassword(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.JedisConfig
+	fileName=redis.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=JedisConfig{host='119.29.105.248', port=6379, password=''}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.linlemo.disconf.demo.service.SimpleRedisService@4270cc80], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.fileVersion=FileItemValue{value=1.0.0.1, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileVersion, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileVersion(java.lang.String)}, file.filename=FileItemValue{value=myfile, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileName, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileName(java.lang.String)}, file.code=FileItemValue{value=1314, field=private int com.linlemo.disconf.demo.config.FileConfig.code, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setCode(int)}}
+	cls=class com.linlemo.disconf.demo.config.FileConfig
+	fileName=fileConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileMap.json	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfigJson
+	fileName=fileMap.json
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:16:20,236 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+disItem:	itemContent	
+	DisconfCenterItem [
+	key=itemContent
+	value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+	field=private java.lang.String com.linlemo.disconf.demo.config.ItemContentConfig.itemContent
+	DisconfCenterBaseModel [
+	object=ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=itemContent&type=1
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:16:20,236 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-08-15 12:16:20,273 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=null, annotationApple='null'}
+2016-08-15 12:16:20,274 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=null}
+2016-08-15 12:16:20,309 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:16:20,341 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:16:20,342 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:16:20,381 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:16:20,381 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:17:20,390 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=null, annotationApple='null'}
+2016-08-15 12:17:20,390 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=null}
+2016-08-15 12:17:20,390 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:17:20,390 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:17:20,390 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:17:20,390 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:17:20,391 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:18:20,399 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=null, annotationApple='null'}
+2016-08-15 12:18:20,399 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=null}
+2016-08-15 12:18:20,399 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:18:20,399 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:18:20,399 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:18:20,399 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:18:20,399 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:19:20,408 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=null, annotationApple='null'}
+2016-08-15 12:19:20,408 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=null}
+2016-08-15 12:19:20,409 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:19:20,409 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:19:20,409 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:19:20,409 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:19:20,409 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:20:50,126 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-08-15 12:20:50,210 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: linlemo_0_8f05aa85-c8fb-4b8a-9403-1544ef1f8b7c
+2016-08-15 12:20:50,236 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:20:50,271 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_store_action: /api/config
+2016-08-15 12:20:50,271 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_zoo_action: /api/zoo
+2016-08-15 12:20:50,271 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_master_num_action: /api/getmasterinfo
+2016-08-15 12:20:50,271 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.local_download_dir: ./disconf/download
+2016-08-15 12:20:50,279 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [119.29.105.248:8110]
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: fr_f_disconf_demo
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: deva
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: /Users/linzhao/workspace/interesting/disconf_demo/cache
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.ignore: []
+2016-08-15 12:20:50,280 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_times: 1
+2016-08-15 12:20:50,280 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_sleep_seconds: 1
+2016-08-15 12:20:50,280 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable_local_download_dir_in_class_path: true
+2016-08-15 12:20:50,280 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:20:50,280 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-08-15 12:20:50,281 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-08-15 12:20:50,295 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.linlemo.disconf.demo]
+2016-08-15 12:20:50,755 [main] INFO  org.reflections.Reflections - Reflections took 274 ms to scan 1 urls, producing 23 keys and 190 values 
+2016-08-15 12:20:50,847 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct
+2016-08-15 12:20:50,848 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigJson
+2016-08-15 12:20:50,927 [main] WARN  com.baidu.disconf.client.store.inner.DisconfCenterStore - There are two same fileName key!!!! fileBeanConfig.properties
+2016-08-15 12:20:51,724 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:20:51,836 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:20:51,836 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:20:51,837 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:20:51,837 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:20:51 GMT
+2016-08-15 12:20:51,837 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:20:51,908 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=119.29.105.248:2181,119.29.105.248:2181]
+2016-08-15 12:20:51,909 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:20:51,921 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:20:51,921 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:20:51,921 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:20:51,921 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:20:51 GMT
+2016-08-15 12:20:51,921 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:20:51,922 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-08-15 12:20:52,033 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-08-15 12:20:52,035 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 119.29.105.248:2181,119.29.105.248:2181 , connected.
+2016-08-15 12:20:52,036 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-08-15 12:20:52,068 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-08-15 12:20:52,071 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileBeanConfig.properties	=============================
+2016-08-15 12:20:52,073 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-b6c2a9520f9b4851ab9baba75306d543
+2016-08-15 12:20:52,120 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-b6c2a9520f9b4851ab9baba75306d543
+2016-08-15 12:20:52,125 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileBeanConfig.properties
+2016-08-15 12:20:52,125 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:20:52,128 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.apple	{"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:20:52,129 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:20:52,221 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileBeanConfig.properties,fileBeanConfig.properties,配置文件) has been added!
+2016-08-15 12:20:52,221 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:20:52,221 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: redis.properties	=============================
+2016-08-15 12:20:52,221 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-6687f0e788264649969b4371618665f0
+2016-08-15 12:20:52,237 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-6687f0e788264649969b4371618665f0
+2016-08-15 12:20:52,239 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/redis.properties
+2016-08-15 12:20:52,239 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:20:52,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.host	119.29.105.248
+2016-08-15 12:20:52,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.port	6379
+2016-08-15 12:20:52,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.aa	
+2016-08-15 12:20:52,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.password	
+2016-08-15 12:20:52,240 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:20:52,299 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/redis.properties,redis.properties,配置文件) has been added!
+2016-08-15 12:20:52,300 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:20:52,300 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileMap.json	=============================
+2016-08-15 12:20:52,301 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-1da6c1e4ca134bcd9c420261f6aa3910
+2016-08-15 12:20:52,322 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-1da6c1e4ca134bcd9c420261f6aa3910
+2016-08-15 12:20:52,323 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileMap.json
+2016-08-15 12:20:52,323 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:20:52,324 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:20:52,394 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileMap.json,fileMap.json,配置文件) has been added!
+2016-08-15 12:20:52,394 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:20:52,394 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileConfig.properties	=============================
+2016-08-15 12:20:52,394 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-bf5c4693618747db8bfa2e494a14f1a8
+2016-08-15 12:20:52,411 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-bf5c4693618747db8bfa2e494a14f1a8
+2016-08-15 12:20:52,412 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileConfig.properties
+2016-08-15 12:20:52,413 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:20:52,413 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.fileVersion	1.0.0.1
+2016-08-15 12:20:52,414 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.filename	myfile
+2016-08-15 12:20:52,414 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.code	1314
+2016-08-15 12:20:52,414 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.author	lin.zhao
+2016-08-15 12:20:52,414 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:20:52,471 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileConfig.properties,fileConfig.properties,配置文件) has been added!
+2016-08-15 12:20:52,471 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:20:52,471 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to process disconf item: itemContent	=============================
+2016-08-15 12:20:52,471 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:20:52,491 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:20:52,491 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:20:52,491 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:20:52,491 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:20:51 GMT
+2016-08-15 12:20:52,491 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:20:52,492 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }]
+2016-08-15 12:20:52,492 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - value: {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:20:52,492 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - download ok.
+2016-08-15 12:20:52,493 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - inject ok.
+2016-08-15 12:20:52,549 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/item/itemContent,itemContent,配置项) has been added!
+2016-08-15 12:20:52,550 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - watch ok.
+2016-08-15 12:20:52,550 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-08-15 12:20:53,713 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfigJson - ==================FileBeanConfigJson disconf init stringMap  content = {
+    "CNMMMCN": "\u4e2d\u56fd",
+    "APPlllLE": "\u82f9\u679c",
+    "SHENZHEN": "\u6df1\u5733"
+}
+2016-08-15 12:20:54,062 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct - ================== FileBeanConfigPostConstruct disconf init apple content  = {"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:20:54,141 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ==================ItemContentConfigPostConstruct disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:20:54,190 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.host , 119.29.105.248)
+2016-08-15 12:20:54,191 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.port , 6379)
+2016-08-15 12:20:54,191 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.password , )
+2016-08-15 12:20:54,215 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-08-15 12:20:54,217 [main] ERROR com.baidu.disconf.client.scan.inner.common.ScanVerify - Your class class com.linlemo.disconf.demo.config.JedisConfig should implement interface: interface com.baidu.disconf.client.common.update.IDisconfUpdate
+2016-08-15 12:20:54,218 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileBeanConfig.properties	=============================
+2016-08-15 12:20:54,218 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.apple is a non-static field. 
+2016-08-15 12:20:54,218 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfig - ================== FileBeanConfig disconf init apple content  = {"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:20:54,218 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: redis.properties	=============================
+2016-08-15 12:20:54,218 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.host is a non-static field. 
+2016-08-15 12:20:54,218 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.port is a non-static field. 
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.password is a non-static field. 
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileMap.json	=============================
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileConfig.properties	=============================
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.fileVersion is a non-static field. 
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.filename is a non-static field. 
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.code is a non-static field. 
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to inject value to disconf item instance: itemContent	=============================
+2016-08-15 12:20:54,219 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreItemProcessorImpl - itemContent is a non-static field. 
+2016-08-15 12:20:54,219 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ================== ItemContentConfig disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:20:54,220 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	fileBeanConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.apple=FileItemValue{value={"color": "remjjmnnnnd","price": 10,"isLike": true}, field=private java.lang.String com.linlemo.disconf.demo.config.FileBeanConfig.annotationApple, setMethod=public void com.linlemo.disconf.demo.config.FileBeanConfig.setAnnotationApple(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfig
+	fileName=fileBeanConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	redis.properties	
+	DisconfCenterFile [
+	keyMaps={redis.host=FileItemValue{value=119.29.105.248, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.host, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setHost(java.lang.String)}, redis.port=FileItemValue{value=6379, field=private int com.linlemo.disconf.demo.config.JedisConfig.port, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPort(int)}, redis.password=FileItemValue{value=, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.password, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPassword(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.JedisConfig
+	fileName=redis.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=JedisConfig{host='119.29.105.248', port=6379, password=''}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.linlemo.disconf.demo.service.SimpleRedisService@50c8d15d], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileMap.json	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfigJson
+	fileName=fileMap.json
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.fileVersion=FileItemValue{value=1.0.0.1, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileVersion, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileVersion(java.lang.String)}, file.filename=FileItemValue{value=myfile, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileName, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileName(java.lang.String)}, file.code=FileItemValue{value=1314, field=private int com.linlemo.disconf.demo.config.FileConfig.code, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setCode(int)}}
+	cls=class com.linlemo.disconf.demo.config.FileConfig
+	fileName=fileConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:20:54,220 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+disItem:	itemContent	
+	DisconfCenterItem [
+	key=itemContent
+	value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+	field=private java.lang.String com.linlemo.disconf.demo.config.ItemContentConfig.itemContent
+	DisconfCenterBaseModel [
+	object=ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=itemContent&type=1
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:20:54,220 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-08-15 12:20:54,243 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+2016-08-15 12:20:54,243 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}
+2016-08-15 12:20:54,258 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:20:54,272 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:20:54,272 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:20:54,292 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:20:54,292 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:21:54,300 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+2016-08-15 12:21:54,300 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}
+2016-08-15 12:21:54,300 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:21:54,300 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:21:54,300 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:21:54,300 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:21:54,300 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:22:54,307 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+2016-08-15 12:22:54,308 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}
+2016-08-15 12:22:54,308 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:22:54,308 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:22:54,308 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:22:54,308 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:22:54,308 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:23:13,266 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-08-15 12:23:13,299 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: linlemo_0_b4c881ad-668c-4363-bb03-672bf907c8a5
+2016-08-15 12:23:13,325 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:23:13,443 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_store_action: /api/config
+2016-08-15 12:23:13,443 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_zoo_action: /api/zoo
+2016-08-15 12:23:13,443 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_master_num_action: /api/getmasterinfo
+2016-08-15 12:23:13,443 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.local_download_dir: ./disconf/download
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [119.29.105.248:8110]
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: fr_f_disconf_demo
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: deva
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: /Users/linzhao/workspace/my/disconf_demo/cache
+2016-08-15 12:23:13,471 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.ignore: []
+2016-08-15 12:23:13,471 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_times: 1
+2016-08-15 12:23:13,471 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_sleep_seconds: 1
+2016-08-15 12:23:13,472 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable_local_download_dir_in_class_path: true
+2016-08-15 12:23:13,472 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:23:13,472 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-08-15 12:23:13,472 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-08-15 12:23:13,514 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.linlemo.disconf.demo]
+2016-08-15 12:23:13,837 [main] INFO  org.reflections.Reflections - Reflections took 182 ms to scan 1 urls, producing 23 keys and 190 values 
+2016-08-15 12:23:13,857 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigJson
+2016-08-15 12:23:13,875 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct
+2016-08-15 12:23:13,948 [main] WARN  com.baidu.disconf.client.store.inner.DisconfCenterStore - There are two same fileName key!!!! fileBeanConfig.properties
+2016-08-15 12:23:14,487 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:23:14,715 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:23:14,715 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:23:14,715 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:23:14,715 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:23:14 GMT
+2016-08-15 12:23:14,716 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:23:14,817 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=119.29.105.248:2181,119.29.105.248:2181]
+2016-08-15 12:23:14,818 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:23:14,842 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:23:14,842 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:23:14,842 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:23:14,842 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:23:14 GMT
+2016-08-15 12:23:14,842 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:23:14,843 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-08-15 12:23:14,939 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-08-15 12:23:14,942 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 119.29.105.248:2181,119.29.105.248:2181 , connected.
+2016-08-15 12:23:14,944 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-08-15 12:23:14,964 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-08-15 12:23:14,976 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileBeanConfig.properties	=============================
+2016-08-15 12:23:14,980 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-d7270e4b77cd41d78abee53706836d6d
+2016-08-15 12:23:15,031 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-d7270e4b77cd41d78abee53706836d6d
+2016-08-15 12:23:15,039 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileBeanConfig.properties
+2016-08-15 12:23:15,040 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:23:15,044 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.apple	{"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:23:15,045 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:23:15,126 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileBeanConfig.properties,fileBeanConfig.properties,配置文件) has been added!
+2016-08-15 12:23:15,126 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:23:15,126 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: redis.properties	=============================
+2016-08-15 12:23:15,127 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-02286be963e040ad8111a5d9a54e90db
+2016-08-15 12:23:15,146 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-02286be963e040ad8111a5d9a54e90db
+2016-08-15 12:23:15,147 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/redis.properties
+2016-08-15 12:23:15,148 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:23:15,148 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.host	119.29.105.248
+2016-08-15 12:23:15,148 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.port	6379
+2016-08-15 12:23:15,148 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.aa	
+2016-08-15 12:23:15,148 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.password	
+2016-08-15 12:23:15,148 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:23:15,206 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/redis.properties,redis.properties,配置文件) has been added!
+2016-08-15 12:23:15,206 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:23:15,207 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileConfig.properties	=============================
+2016-08-15 12:23:15,210 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-f5d1237b0c2f4af7a8ce0fa80562dab0
+2016-08-15 12:23:15,231 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-f5d1237b0c2f4af7a8ce0fa80562dab0
+2016-08-15 12:23:15,236 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileConfig.properties
+2016-08-15 12:23:15,239 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:23:15,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.fileVersion	1.0.0.1
+2016-08-15 12:23:15,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.filename	myfile
+2016-08-15 12:23:15,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.code	1314
+2016-08-15 12:23:15,240 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.author	lin.zhao
+2016-08-15 12:23:15,240 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:23:15,301 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileConfig.properties,fileConfig.properties,配置文件) has been added!
+2016-08-15 12:23:15,302 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:23:15,302 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileMap.json	=============================
+2016-08-15 12:23:15,302 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-14597414c93048d68ef60aa517504138
+2016-08-15 12:23:15,319 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-14597414c93048d68ef60aa517504138
+2016-08-15 12:23:15,319 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-14597414c93048d68ef60aa517504138 to /Users/linzhao/workspace/my/disconf_demo/cache/fileMap.json
+2016-08-15 12:23:15,324 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileMap.json
+2016-08-15 12:23:15,324 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:23:15,325 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:23:15,376 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileMap.json,fileMap.json,配置文件) has been added!
+2016-08-15 12:23:15,377 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:23:15,378 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to process disconf item: itemContent	=============================
+2016-08-15 12:23:15,380 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:23:15,400 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:23:15,401 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:23:15,401 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:23:15,401 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:23:14 GMT
+2016-08-15 12:23:15,401 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:23:15,402 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }]
+2016-08-15 12:23:15,402 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - value: {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:23:15,402 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - download ok.
+2016-08-15 12:23:15,402 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - inject ok.
+2016-08-15 12:23:15,461 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/item/itemContent,itemContent,配置项) has been added!
+2016-08-15 12:23:15,461 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - watch ok.
+2016-08-15 12:23:15,461 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-08-15 12:23:16,467 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfigJson - ==================FileBeanConfigJson disconf init stringMap  content = {
+    "CNMMMCN": "\u4e2d\u56fd",
+    "APPlllLE": "\u82f9\u679c",
+    "SHENZHEN": "\u6df1\u5733"
+}
+2016-08-15 12:23:16,867 [main] ERROR com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct - init apple exception
+java.lang.NullPointerException: null
+	at com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct.setApple(FileBeanConfigPostConstruct.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_79]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:349) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:300) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:133) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1566) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755) [spring-beans-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93) [spring-context-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at com.linlemo.disconf.demo.main.DisconfDemoMain.main(DisconfDemoMain.java:31) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_79]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:na]
+2016-08-15 12:23:16,967 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ==================ItemContentConfigPostConstruct disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:23:17,077 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.host , 119.29.105.248)
+2016-08-15 12:23:17,077 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.port , 6379)
+2016-08-15 12:23:17,078 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.password , )
+2016-08-15 12:23:17,113 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-08-15 12:23:17,116 [main] ERROR com.baidu.disconf.client.scan.inner.common.ScanVerify - Your class class com.linlemo.disconf.demo.config.JedisConfig should implement interface: interface com.baidu.disconf.client.common.update.IDisconfUpdate
+2016-08-15 12:23:17,121 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileBeanConfig.properties	=============================
+2016-08-15 12:23:17,122 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: redis.properties	=============================
+2016-08-15 12:23:17,122 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.host is a non-static field. 
+2016-08-15 12:23:17,123 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.port is a non-static field. 
+2016-08-15 12:23:17,123 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.password is a non-static field. 
+2016-08-15 12:23:17,123 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileConfig.properties	=============================
+2016-08-15 12:23:17,124 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.fileVersion is a non-static field. 
+2016-08-15 12:23:17,124 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.filename is a non-static field. 
+2016-08-15 12:23:17,125 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.code is a non-static field. 
+2016-08-15 12:23:17,126 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileMap.json	=============================
+2016-08-15 12:23:17,126 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to inject value to disconf item instance: itemContent	=============================
+2016-08-15 12:23:17,127 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreItemProcessorImpl - itemContent is a non-static field. 
+2016-08-15 12:23:17,127 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ================== ItemContentConfig disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:23:17,129 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	fileBeanConfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct
+	fileName=fileBeanConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileBeanConfigPostConstruct{apple=null}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigPostConstruct{apple=null}], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	redis.properties	
+	DisconfCenterFile [
+	keyMaps={redis.host=FileItemValue{value=119.29.105.248, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.host, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setHost(java.lang.String)}, redis.port=FileItemValue{value=6379, field=private int com.linlemo.disconf.demo.config.JedisConfig.port, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPort(int)}, redis.password=FileItemValue{value=, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.password, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPassword(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.JedisConfig
+	fileName=redis.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=JedisConfig{host='119.29.105.248', port=6379, password=''}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.linlemo.disconf.demo.service.SimpleRedisService@30295a1a], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.fileVersion=FileItemValue{value=1.0.0.1, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileVersion, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileVersion(java.lang.String)}, file.filename=FileItemValue{value=myfile, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileName, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileName(java.lang.String)}, file.code=FileItemValue{value=1314, field=private int com.linlemo.disconf.demo.config.FileConfig.code, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setCode(int)}}
+	cls=class com.linlemo.disconf.demo.config.FileConfig
+	fileName=fileConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileMap.json	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfigJson
+	fileName=fileMap.json
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:23:17,130 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+disItem:	itemContent	
+	DisconfCenterItem [
+	key=itemContent
+	value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+	field=private java.lang.String com.linlemo.disconf.demo.config.ItemContentConfig.itemContent
+	DisconfCenterBaseModel [
+	object=ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=itemContent&type=1
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:23:17,131 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-08-15 12:23:17,170 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=null, annotationApple='null'}
+2016-08-15 12:23:17,170 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=null}
+2016-08-15 12:23:17,195 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:23:17,218 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:23:17,219 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:23:17,247 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:23:17,247 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:24:16,423 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-08-15 12:24:16,438 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: linlemo_0_d175d111-ed30-4e27-b6a9-86beb3530ce4
+2016-08-15 12:24:16,442 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:24:16,451 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_store_action: /api/config
+2016-08-15 12:24:16,451 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_zoo_action: /api/zoo
+2016-08-15 12:24:16,451 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_master_num_action: /api/getmasterinfo
+2016-08-15 12:24:16,451 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.local_download_dir: ./disconf/download
+2016-08-15 12:24:16,462 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [119.29.105.248:8110]
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: fr_f_disconf_demo
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: deva
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: /Users/linzhao/workspace/my/disconf_demo/cache
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.ignore: []
+2016-08-15 12:24:16,463 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_times: 1
+2016-08-15 12:24:16,463 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_sleep_seconds: 1
+2016-08-15 12:24:16,463 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable_local_download_dir_in_class_path: true
+2016-08-15 12:24:16,463 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /Users/linzhao/workspace/my/disconf_demo/target/classes/
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-08-15 12:24:16,463 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-08-15 12:24:16,484 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.linlemo.disconf.demo]
+2016-08-15 12:24:16,760 [main] INFO  org.reflections.Reflections - Reflections took 204 ms to scan 1 urls, producing 23 keys and 189 values 
+2016-08-15 12:24:16,805 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.linlemo.disconf.demo.config.FileBeanConfigJson
+2016-08-15 12:24:17,318 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:24:17,419 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:24:17,419 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:24:17,419 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:24:17,419 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:24:17 GMT
+2016-08-15 12:24:17,420 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:24:17,490 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=119.29.105.248:2181,119.29.105.248:2181]
+2016-08-15 12:24:17,492 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:24:17,504 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:24:17,504 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:24:17,504 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:24:17,504 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:24:17 GMT
+2016-08-15 12:24:17,504 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:24:17,505 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-08-15 12:24:17,619 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-08-15 12:24:17,621 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 119.29.105.248:2181,119.29.105.248:2181 , connected.
+2016-08-15 12:24:17,622 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-08-15 12:24:17,657 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-08-15 12:24:17,667 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileBeanConfig.properties	=============================
+2016-08-15 12:24:17,672 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-a67a9330aa034473a0da31aeb356e29c
+2016-08-15 12:24:17,733 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileBeanConfig.properties-a67a9330aa034473a0da31aeb356e29c
+2016-08-15 12:24:17,745 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileBeanConfig.properties
+2016-08-15 12:24:17,745 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:24:17,751 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.apple	{"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:24:17,752 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:24:17,851 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileBeanConfig.properties,fileBeanConfig.properties,配置文件) has been added!
+2016-08-15 12:24:17,851 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:24:17,851 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: redis.properties	=============================
+2016-08-15 12:24:17,851 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-e7d13b964c704fc2b4b6a9c1bc82ec57
+2016-08-15 12:24:17,869 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/redis.properties-e7d13b964c704fc2b4b6a9c1bc82ec57
+2016-08-15 12:24:17,871 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/redis.properties
+2016-08-15 12:24:17,871 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:24:17,872 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.host	119.29.105.248
+2016-08-15 12:24:17,872 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.port	6379
+2016-08-15 12:24:17,872 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.aa	
+2016-08-15 12:24:17,872 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - redis.password	
+2016-08-15 12:24:17,872 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:24:17,935 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/redis.properties,redis.properties,配置文件) has been added!
+2016-08-15 12:24:17,935 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:24:17,935 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileMap.json	=============================
+2016-08-15 12:24:17,936 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-23bf60951ef842d6b2b28587565efb31
+2016-08-15 12:24:17,961 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileMap.json-23bf60951ef842d6b2b28587565efb31
+2016-08-15 12:24:17,962 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileMap.json
+2016-08-15 12:24:17,962 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:24:17,963 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:24:18,020 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileMap.json,fileMap.json,配置文件) has been added!
+2016-08-15 12:24:18,020 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:24:18,020 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: fileConfig.properties	=============================
+2016-08-15 12:24:18,021 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://119.29.105.248:8110/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0 , TO: /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-c4a7d92772cb48ac9029d5996a676b88
+2016-08-15 12:24:18,058 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  /Users/linzhao/workspace/my/disconf_demo/./disconf/download/fileConfig.properties-c4a7d92772cb48ac9029d5996a676b88
+2016-08-15 12:24:18,060 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: /Users/linzhao/workspace/my/disconf_demo/target/classes/fileConfig.properties
+2016-08-15 12:24:18,060 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-08-15 12:24:18,061 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.fileVersion	1.0.0.1
+2016-08-15 12:24:18,061 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.filename	myfile
+2016-08-15 12:24:18,061 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.code	1314
+2016-08-15 12:24:18,061 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - file.author	lin.zhao
+2016-08-15 12:24:18,061 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-08-15 12:24:18,160 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/file/fileConfig.properties,fileConfig.properties,配置文件) has been added!
+2016-08-15 12:24:18,160 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-08-15 12:24:18,160 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to process disconf item: itemContent	=============================
+2016-08-15 12:24:18,161 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-08-15 12:24:18,183 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-08-15 12:24:18,184 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-08-15 12:24:18,184 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-08-15 12:24:18,184 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Mon, 15 Aug 2016 04:24:17 GMT
+2016-08-15 12:24:18,184 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-08-15 12:24:18,186 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }]
+2016-08-15 12:24:18,186 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - value: {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:24:18,186 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - download ok.
+2016-08-15 12:24:18,187 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - inject ok.
+2016-08-15 12:24:18,241 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/fr_f_disconf_demo_1_0_0_0_deva/item/itemContent,itemContent,配置项) has been added!
+2016-08-15 12:24:18,242 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - watch ok.
+2016-08-15 12:24:18,242 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-08-15 12:24:19,174 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfigJson - ==================FileBeanConfigJson disconf init stringMap  content = {
+    "CNMMMCN": "\u4e2d\u56fd",
+    "APPlllLE": "\u82f9\u679c",
+    "SHENZHEN": "\u6df1\u5733"
+}
+2016-08-15 12:24:19,559 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct - ================== FileBeanConfigPostConstruct disconf init apple content  = {"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:24:19,618 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ==================ItemContentConfigPostConstruct disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:24:19,673 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.host , 119.29.105.248)
+2016-08-15 12:24:19,674 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.port , 6379)
+2016-08-15 12:24:19,674 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: redis.properties (redis.password , )
+2016-08-15 12:24:19,698 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-08-15 12:24:19,700 [main] ERROR com.baidu.disconf.client.scan.inner.dynamic.ScanDynamicStoreAdapter - cannot find DisconfFile annotation for class when set callback: class com.linlemo.disconf.demo.config.FileBeanConfigPostConstruct 
+2016-08-15 12:24:19,701 [main] ERROR com.baidu.disconf.client.scan.inner.common.ScanVerify - Your class class com.linlemo.disconf.demo.config.JedisConfig should implement interface: interface com.baidu.disconf.client.common.update.IDisconfUpdate
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileBeanConfig.properties	=============================
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.apple is a non-static field. 
+2016-08-15 12:24:19,702 [main] INFO  com.linlemo.disconf.demo.config.FileBeanConfig - ================== FileBeanConfig disconf init apple content  = {"color": "remjjmnnnnd","price": 10,"isLike": true}
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: redis.properties	=============================
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.host is a non-static field. 
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.port is a non-static field. 
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - redis.password is a non-static field. 
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileMap.json	=============================
+2016-08-15 12:24:19,702 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: fileConfig.properties	=============================
+2016-08-15 12:24:19,703 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.fileVersion is a non-static field. 
+2016-08-15 12:24:19,703 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.filename is a non-static field. 
+2016-08-15 12:24:19,703 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - file.code is a non-static field. 
+2016-08-15 12:24:19,703 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to inject value to disconf item instance: itemContent	=============================
+2016-08-15 12:24:19,703 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreItemProcessorImpl - itemContent is a non-static field. 
+2016-08-15 12:24:19,703 [main] INFO  com.linlemo.disconf.demo.config.FileConfig - ================== ItemContentConfig disconf init stringMap  content = {     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+2016-08-15 12:24:19,703 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	fileBeanConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.apple=FileItemValue{value={"color": "remjjmnnnnd","price": 10,"isLike": true}, field=private java.lang.String com.linlemo.disconf.demo.config.FileBeanConfig.annotationApple, setMethod=public void com.linlemo.disconf.demo.config.FileBeanConfig.setAnnotationApple(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfig
+	fileName=fileBeanConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileBeanConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	redis.properties	
+	DisconfCenterFile [
+	keyMaps={redis.host=FileItemValue{value=119.29.105.248, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.host, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setHost(java.lang.String)}, redis.port=FileItemValue{value=6379, field=private int com.linlemo.disconf.demo.config.JedisConfig.port, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPort(int)}, redis.password=FileItemValue{value=, field=private java.lang.String com.linlemo.disconf.demo.config.JedisConfig.password, setMethod=public void com.linlemo.disconf.demo.config.JedisConfig.setPassword(java.lang.String)}}
+	cls=class com.linlemo.disconf.demo.config.JedisConfig
+	fileName=redis.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=JedisConfig{host='119.29.105.248', port=6379, password=''}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=redis.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.linlemo.disconf.demo.service.SimpleRedisService@46890b45], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileMap.json	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.linlemo.disconf.demo.config.FileBeanConfigJson
+	fileName=fileMap.json
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileMap.json&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	fileConfig.properties	
+	DisconfCenterFile [
+	keyMaps={file.fileVersion=FileItemValue{value=1.0.0.1, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileVersion, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileVersion(java.lang.String)}, file.filename=FileItemValue{value=myfile, field=private java.lang.String com.linlemo.disconf.demo.config.FileConfig.fileName, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setFileName(java.lang.String)}, file.code=FileItemValue{value=1314, field=private int com.linlemo.disconf.demo.config.FileConfig.code, setMethod=public void com.linlemo.disconf.demo.config.FileConfig.setCode(int)}}
+	cls=class com.linlemo.disconf.demo.config.FileConfig
+	fileName=fileConfig.properties
+	copy2TargetDirPath=
+	DisconfCenterBaseModel [
+	object=FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=fileConfig.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:24:19,704 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+disItem:	itemContent	
+	DisconfCenterItem [
+	key=itemContent
+	value={     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }
+	field=private java.lang.String com.linlemo.disconf.demo.config.ItemContentConfig.itemContent
+	DisconfCenterBaseModel [
+	object=ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=fr_f_disconf_demo&env=deva&key=itemContent&type=1
+	disConfCommonModel=DisConfCommonModel [app=fr_f_disconf_demo, version=1_0_0_0, env=deva]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}], disconfUpdatesActiveBackups=[]}]]
+
+2016-08-15 12:24:19,704 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-08-15 12:24:19,726 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - fileBeanConfig{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}, annotationApple='{"color": "remjjmnnnnd","price": 10,"isLike": true}'}
+2016-08-15 12:24:19,726 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigPostConstruct{apple=Apple{color='remjjmnnnnd', price=10, isLike=false}}
+2016-08-15 12:24:19,740 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileConfig{fileName='myfile', fileVersion='1.0.0.1', author='lin.zhao', code=1314}
+2016-08-15 12:24:19,753 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfig{itemContent='{     "CNMMMCN": "\u4e2d\u56fd",     "APPlllLE": "\u82f9\u679c",     "SHENZHEN": "\u6df1\u5733" }', stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:24:19,754 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - ItemContentConfigPostConstruct{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}
+2016-08-15 12:24:19,768 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - JedisConfig{host='119.29.105.248', port=6379, password=''}
+2016-08-15 12:24:19,769 [main] INFO  com.linlemo.disconf.demo.task.DisconfDemoTask - FileBeanConfigJson{stringMap={CNMMMCN=中国, APPlllLE=苹果, SHENZHEN=深圳}}

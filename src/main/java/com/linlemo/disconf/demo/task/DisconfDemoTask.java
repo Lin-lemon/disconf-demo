@@ -1,5 +1,6 @@
 package com.linlemo.disconf.demo.task;
 
+import com.linlemo.disconf.demo.bean.Apple;
 import com.linlemo.disconf.demo.config.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +19,7 @@ public class DisconfDemoTask {
     protected static final Logger LOGGER = LoggerFactory.getLogger(DisconfDemoTask.class);
 
     @Autowired
-    FileBeanConfig fileBeanConfig;
+    FileBeanConfigByStr fileBeanConfigByStr;
 
     @Autowired
     FileBeanConfigPostConstruct fileBeanConfigPostConstruct;
@@ -35,16 +36,26 @@ public class DisconfDemoTask {
     @Autowired
     JedisConfig jedisConfig;
 
+    @Autowired
+    FileBeanConfigJson fileBeanConfigJson;
+
+    @Autowired
+    FileBeanConfig fileBeanConfig;
+
     public int run() {
 
         try {
             while (true) {
-                LOGGER.info(fileBeanConfig.toString());
+                Apple apple = fileBeanConfig.getActualApple();
+                LOGGER.info(apple.toString());
+
+                LOGGER.info(fileBeanConfigByStr.toString());
                 LOGGER.info(fileBeanConfigPostConstruct.toString());
                 LOGGER.info(fileConfig.toString());
                 LOGGER.info(itemContentConfig.toString());
                 LOGGER.info(itemContentConfigPostConstruct.toString());
                 LOGGER.info(jedisConfig.toString());
+                LOGGER.info(fileBeanConfigJson.toString());
                 System.out.println();
                 System.out.println();
                 Thread.sleep(60000);

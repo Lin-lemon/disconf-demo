@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 @DisconfFile(filename = "redis.properties")
-@DisconfUpdateService(classes = {JedisConfig.class})
 public class JedisConfig {
 
     protected static final Logger LOGGER = LoggerFactory.getLogger(JedisConfig.class);

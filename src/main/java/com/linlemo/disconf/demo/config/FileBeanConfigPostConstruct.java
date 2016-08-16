@@ -1,6 +1,5 @@
 package com.linlemo.disconf.demo.config;
 
-import com.baidu.disconf.client.common.annotations.DisconfFile;
 import com.baidu.disconf.client.common.annotations.DisconfUpdateService;
 import com.baidu.disconf.client.common.update.IDisconfUpdate;
 import com.baidu.disconf.client.usertools.DisconfDataGetter;
@@ -20,7 +19,6 @@ import javax.annotation.PostConstruct;
  * Time: 00:39
  */
 @Service
-@DisconfFile(filename = "fileBeanConfig.properties")
 @DisconfUpdateService(classes = {FileBeanConfigPostConstruct.class})
 public class FileBeanConfigPostConstruct implements IDisconfUpdate {
 
